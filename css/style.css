@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  height: 100%;
+}
+html, body{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background: url('../img/dw-bg.jpg') no-repeat;
+  /* background: url('../img/dw-all-13.jpeg') no-repeat; */
+  background-size: cover;
+  overflow: hidden;
+}
+
+header{
+  margin: 0 auto;
+  background: #3338;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  height: 5rem;
+  width: 55rem;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.remote{
+  display: inline-block;
+  background: url("../img/dw-all-13.jpeg") no-repeat;
+  background-size: cover;
+  width: 455px;
+  height: 230px;
+  margin: 60rem 126rem;
+}
+
+.remote-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.remote-img li{
+  display: inline;
+  width: 65px;
+  height: 118px;
+}
