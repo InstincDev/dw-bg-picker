@@ -16,7 +16,6 @@ html, body{
 /*******************************************/
 body{
   background: url('../img/dw-bg.jpg') no-repeat;
-  /* background: url('../img/dw-all-13.jpeg') no-repeat; */
   background-size: cover;
   overflow: hidden;
 }
@@ -37,12 +36,13 @@ header{
 /*******************************************/
 
 .remote{
-  display: inline-block;
+  position: fixed;
+  bottom: 10rem;
+  right: 10rem;
   background: url("../img/dw-all-13.jpeg") no-repeat;
   background-size: cover;
   width: 455px;
   height: 230px;
-  margin: 60rem 126rem;
 }
 
 .remote-img{
