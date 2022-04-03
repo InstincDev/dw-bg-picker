@@ -17,6 +17,7 @@ html, body{
 body{
   background: url('../img/dw-bg.jpg') no-repeat;
   background-size: cover;
+  min-width: 675px;
   overflow: hidden;
 }
 
@@ -36,11 +37,11 @@ header{
 /*******************************************/
 
 .remote{
-  position: fixed;
-  bottom: 10rem;
-  right: 10rem;
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
   background: url("../img/dw-all-13.jpeg") no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 455px;
   height: 230px;
 }
