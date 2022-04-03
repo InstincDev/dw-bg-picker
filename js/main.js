@@ -33,13 +33,13 @@ function changeBkgd(click) {
       document.querySelector("body").style.background =
         "url('" + drPics[i] + "') no-repeat";
       document.querySelector("body").style.backgroundSize = "cover";
-      playSound();
+      playSound(click);
       
     }
   }
 }
 
-function playSound(){
+function playSound(click){
   if(click.target.classList.contains("dr9")){
     document.querySelector(".fantastic").play();
   }else if(click.target.classList.contains("dr10")){
