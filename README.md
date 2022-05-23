@@ -3,7 +3,7 @@
 
 Application that displays Dr. Who inspired background images.
 
-<img width="400" alt="docter who background picker gif" src="https://user-images.githubusercontent.com/67307808/169841531-d24dd945-1339-4ba8-ab9c-30876da2fed2.gif"/>
+<img width="400" alt="doctor who background picker gif" src="https://user-images.githubusercontent.com/67307808/169841531-d24dd945-1339-4ba8-ab9c-30876da2fed2.gif"/>
 
 The images are changed by clicking on the remote. Clicking on each Doctors image on the remote will cause the T.A.R.D.I.S. sound to be played and a background image of that Doctor to be displayed.  Alternatively, clicking on the 9th, 10th and 11th Doctor's image will cause that Doctor's catchphrase to be played.
 
